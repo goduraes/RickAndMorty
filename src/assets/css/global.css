@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  background: #131418;
+  color: #fff;
+}
+
+body div:nth-child(2) {
+  /* min-height: calc(100vh - 140px); */
+}
+
+h1 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.ant-menu-horizontal > .ant-menu-item:hover,
+.ant-menu-horizontal > .ant-menu-submenu:hover,
+.ant-menu-horizontal > .ant-menu-item-active,
+.ant-menu-horizontal > .ant-menu-submenu-active,
+.ant-menu-horizontal > .ant-menu-item-open,
+.ant-menu-horizontal > .ant-menu-submenu-open,
+.ant-menu-horizontal > .ant-menu-item-selected,
+.ant-menu-horizontal > .ant-menu-submenu-selected {
+  color: #22a2bd;
+  border-bottom: 2px solid transparent;
+}
+
+.ant-menu-item:hover,
+.ant-menu-item-active,
+.ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
+.ant-menu-submenu-active,
+.ant-menu-submenu-title:hover {
+  color: #333;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #115666;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+.ant-card {
+  background-color: #000;
+  color: #fff;
+}
+
+.ant-card-head {
+  border-color: #000;
+  background-color: #111;
+  color: #81d107;
+}
+
+.ant-pagination-prev .ant-pagination-item-link, 
+.ant-pagination-next .ant-pagination-item-link {
+  filter: invert(1);
+  border: #fff;
+}
+
+.ant-pagination-item-link .anticon {
+  filter: grayscale(1);
+}
+
+.ant-pagination-item {
+  background-color: #000;
+  border-color: #000;
+}
+
+.ant-pagination-item:focus a, 
+.ant-pagination-item:hover a,
+.ant-pagination-item:focus, 
+.ant-pagination-item:hover,
+.ant-pagination-item-active a {
+  color: #81d107 !important;
+  border-color: #81d107 !important;
+}
+
+.ant-pagination-item a {
+  color: #fff;
+}
+
+.ant-modal-title {
+  color: #fff;
+}
+
+.ant-modal-content,
+.ant-modal-header {
+  background-color: #131418;
+  border-color: #000;
+  color: #fff;
+}
+
+.ant-modal-close-x {
+  filter: invert(1);
+}
+
+.ant-card.characterCard {
+  background: #111;
+}
+
+.ant-card.characterCard .ant-card-body {
+  padding: 10px;
+}
+
+.ant-card.characterCard .ant-card-body .ant-card-meta
+.ant-card-meta-description > div span {
+  color: #81d107;
+  font-weight: bold;
+}
+
+.characterCard .ant-card-meta-detail .ant-card-meta-title,
+.characterCard .ant-card-meta-detail .ant-card-meta-description {
+  color: #fff;
+}
+
+.ant-btn-primary {
+  background-color: #3b5999;
+  border-color: #3b5999
+}
+
+.ant-card-hoverable {
+  cursor: default;
+}
